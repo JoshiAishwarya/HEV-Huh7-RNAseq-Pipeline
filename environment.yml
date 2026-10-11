@@ -1,0 +1,10 @@
+name: bnf
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - nextflow
+  - fastqc
+  - fastp
+  - salmon
+  - multiqc
