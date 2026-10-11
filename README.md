@@ -57,8 +57,8 @@ Naked transcript files (`cdna.fa`) create a mathematical blind spot where fragme
 
 ```bash
 # Clone the repository
-git clone https://github.com
-cd Nextflow-dev
+https://github.com/JoshiAishwarya/HEV-Huh7-RNAseq-Pipeline
+cd HEV-Huh7-RNAseq-Pipeline
 
 # Initialize the localized bioinformatic environment
 conda env create -f environment.yml
