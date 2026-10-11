@@ -1,0 +1,29 @@
+# 1. Block Nextflow system cache and run histories
+.nextflow/
+.nextflow.log*
+work/
+
+# 2. Block heavy raw sequencing streams and fastq file duplicates
+*.fastq.gz
+*.fq.gz
+*.fastq
+*.fq
+*.gz
+
+# 3. Block reference genome sequences and assemblies
+*.fna
+*.fa
+*.fasta
+*.gtf
+*.gff
+rhesus_index/
+gentrome.fa*
+decoys.txt
+
+# 4. Block local results directories (Keeps repo code-only)
+Results/
+
+# 5. Block RStudio local leftovers and workspace recoveries
+.Rhistory
+.RData
+.Rproj.user/
